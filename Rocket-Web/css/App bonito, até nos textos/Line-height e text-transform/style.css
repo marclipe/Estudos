@@ -1,0 +1,14 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    text-transform: capitalize;
+    text-decoration: underline solid red;
+    text-align: justify;
+    text-shadow: 1px 1px 8px red 2px 2px 1px green;
+}
+
+h3 {
+    font: italic normal bold normal 2em/2 Helvetica, Arial, sans-serif ;
+}
