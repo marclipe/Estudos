@@ -32,19 +32,17 @@
     grid-area: header;
     background-color: #FFFFFF;
     ;
-    height: 162px;
     height: 42px;
     width: 100%;
     margin-bottom: 16px;
     margin-top: 16px;
-    color: var(--black--color);
 }
 
-.nav-logo {
-    position: relative;
+.nav-logo img {
+    position: absolute;
     left: 72px;
     top: 20px;
-} 
+}  
 
 .nav__bar {
     display: flex;
@@ -58,6 +56,15 @@
     line-height: 8px;
     font-weight: normal;
     
+}
+
+.nav__item {
+    color: var(--black--color);
+    font-weight: 500;
+    font-family: var(--main-font); 
+    font-size: 14px;
+    line-height: 8px;
+    font-weight: normal;
 }
 
 .button__get-started {
