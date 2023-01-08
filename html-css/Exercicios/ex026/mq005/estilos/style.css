@@ -14,7 +14,7 @@ header {background-color: rgb(148, 148, 148);}
 
 header > h1 {padding: 10px; text-align: center;}
 
-menu {display: block;}
+menu {display: none;}
 
 /*Tirando a lista do MENU*/
 menu > ul {list-style-type: none;}
@@ -47,4 +47,18 @@ article > p {
     margin-bottom: 20px;
     /*Dar espaço no inicio de cada paragrafo*/
     text-indent: 20px;
+}
+
+#burger {
+    background-color: rgba(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: white;
+    color: black;
 }
