@@ -23,3 +23,14 @@
 // .catch(function(error){ 
 //     console.log(error)
 // })
+
+const myPromise = () => new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('ok')
+    }, 2000);
+})
+
+myPromise()
+.then((response) => {
+    console.log(response)
+})
