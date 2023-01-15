@@ -1,0 +1,6 @@
+p {
+    -webkit-background-clip: text; /*Chrome, Safari, IOS e Android*/
+    -moz-background-clip: text; /*Mozilla (Firefox)*/
+    -ms-background-clip: text; /*Internet Explorer*/
+    -moz-background-clip: text; /*Opera*/ 
+}

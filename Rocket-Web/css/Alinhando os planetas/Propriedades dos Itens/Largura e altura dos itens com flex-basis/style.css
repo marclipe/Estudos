@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+    flex-basis: auto; /*25% | 5% | 25px*/
+}
+
+/*Pegar apenas um elemento*/
+.box div:nth-child(1) {
+    width: 250px;
+    height: 400px;
+}

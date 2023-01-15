@@ -1,0 +1,5 @@
+h1 {
+    border: 1px solid red;
+    margin: 200px; /*Espaçamento por fora da caixa*/
+    padding: 60px; /*Preenchimento interno*/
+}

@@ -1,0 +1,19 @@
+#my-title, #my-title strong {
+    color: grey;
+}
+
+h1.title#my-title { /*class e id juntos*/
+    color: green;
+}
+
+body h1 {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}

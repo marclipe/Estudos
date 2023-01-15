@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body { 
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rebeccapurple;
+    background-color: rgb(214, 214, 12);
+}
+
+p {
+    text-align: center;
+}

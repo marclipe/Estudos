@@ -1,0 +1,31 @@
+<!--
+    <video>
+
+    - src
+    - controls 
+    - se não funcionar 
+        - fallback content
+    - source 
+        - src 
+        - type
+
+    - sobre serviços de terceiros
+    - autoplay - toca o vídeo automaticamente
+    - preload="auto" - fazer um pré carregamento, já vai baixando o vídeo
+    - preload="metadata" - só carregar aquilo que for básico
+    - preload="none" - Não fará nada
+-->
+<video control with="200" height="400">
+    <source src="./assets-example/rocket.mp4" type="video/mp4">
+    <p>Este browser não suporta video, baixe-o aqui</p>
+</video>
+
+<video control autoplay preload="metadata" loop muted>
+    <source src="./assets-example/rocket.mp4" type="video/mp4">
+    <p>Este browser não suporta video, baixe-o aqui</p>
+</video>
+
+<video control poster="./icon.png">
+    <source src="./assets-example/rocket.mp4" type="video/mp4">
+    <p>Este browser não suporta video, baixe-o aqui</p>
+</video>
